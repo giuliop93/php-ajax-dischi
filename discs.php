@@ -4,7 +4,7 @@ $arrayDiscs = [
     [
         'title' => "Viva la vida or Death and All His Friends",
         'author' => "Coldplay",
-        'album' => "",
+        'album' => "../img/Coldplay.jpg",
         'year' => "2008"
     ],
     [
@@ -59,4 +59,4 @@ $arrayDiscs = [
         'year' => "2007"
     ],
     
-]
+];

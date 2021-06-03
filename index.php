@@ -15,9 +15,21 @@ include "./discs.php";
 </head>
 <body>
     <?php
+    // $discs = implode(", ", $arrayDiscs);
 
     foreach ($arrayDiscs as $value) {
-        
+        ?>
+        <div class="disc">
+            <h3><?php echo $value["title"] ?></h3>
+            <p><?php echo $value["author"] ?><br>
+            <?php echo $value["album"] ?><br>
+            <?php echo $value["year"] ?></p>
+</p>
+
+        </div> <?php
     }
+
+    ?>
+
 </body>
 </html>
