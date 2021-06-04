@@ -38,7 +38,7 @@ $arrayDiscs = [
         'album' => "",
         'year' => "2018"
     ],    [
-        'title' => "Se l'amore è amore",
+        'title' => "Se L'amore è Amore",
         'author' => "Antonello Venditti",
         'album' => "",
         'year' => "2000"

@@ -2,7 +2,15 @@
 
 include "./discs.php";
 
+
+//API di base
+header("Content-Type: application/json");
+
+echo json_encode($arrayDiscs);
+
 ?>
+
+
 
 
 <!DOCTYPE html>
